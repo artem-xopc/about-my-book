@@ -34,7 +34,23 @@ a {
 
 a:hover {
     filter: brightness(150%);
+}
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: #045a04;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  width: 3px;
+  background: #01b917;
+  border-radius: 5px;
 }
 
 .main-header {
